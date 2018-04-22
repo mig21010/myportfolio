@@ -1,4 +1,4 @@
-import styled from 'styled-components';
+import styled, {css} from 'styled-components';
 
 export  const Image = styled.img `
 width: 100%;
@@ -37,8 +37,12 @@ position: relative;
 	transform-origin: left;
 	transform: rotateY(90deg);
 
-	transition: transform 3s;
+	transition: transform 1s;
 }
-
+  ${({ hide }) => hide && css`
+    &:after {
+      transform: rotateY(10deg);
+    }
+  `}
 
 `;
