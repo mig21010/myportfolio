@@ -4,5 +4,6 @@ import { injectGlobal } from 'styled-components';
  	 	body {
  	 		font-family: 'Roboto', sans-serif;
  	 		font-size: 20px;
+ 	 		color: #13456B;
  	 	}
  	`
