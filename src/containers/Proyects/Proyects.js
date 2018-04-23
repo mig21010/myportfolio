@@ -3,14 +3,16 @@ import { Container, Relative, Flex } from 'theme/grid';
 import { A } from 'theme/types';
 import {
 	ImageButton,
-	Index
+	Index, 
+	Title
 } from './Proyects_style';
 
 class Proyects extends Component {
 	render() {
 		return (
 			<Container>
-				<Relative marginBottom="50px">
+			<Title>Open-Source Proyects</Title>
+				<Relative marginBottom="50px" marginBottom="50px">
 					<Index>
 						<h1>01</h1>
 					</Index>

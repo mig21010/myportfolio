@@ -1,5 +1,5 @@
 import styled from 'styled-components';
-import { red } from 'theme/variables';
+import { red, blue } from 'theme/variables';
 
 export const ImageButton = styled.div`
 	cursor: pointer;
@@ -29,4 +29,9 @@ export const Index = styled.div `
  	opacity: 0.7;
  	transform: translateY(20%);
  }
+`;
+export const Title = styled.h1`
+	color: ${blue};
+	font-weight: bold; 
+	margin-top: 0;
 `;
