@@ -25,7 +25,34 @@ class Proyects extends Component {
 				 src={require('assets/imssproyecsmall.png')} alt="proyect"/>
 				</ImageButton>
 				</Flex>
+				<Relative>
+				<Index>
+
+				<h1>02</h1>
+					</Index>
+				<h2>Lorem ipsum dolor sit amet, consectetur <A href="">adipiscing elit.</A></h2>
+				</Relative>
+				<Flex justify={'center'}>
+				<ImageButton>
+				<img
+				 src={require('assets/imssproyecsmall.png')} alt="proyect"/>
+				</ImageButton>
+				</Flex>
+				<Relative>
+				<Index>
+
+				<h1>03</h1>
+					</Index>
+				<h2>Lorem ipsum dolor sit amet, consectetur <A href="">adipiscing elit.</A></h2>
+				</Relative>
+				<Flex justify={'center'}>
+				<ImageButton>
+				<img
+				 src={require('assets/imssproyecsmall.png')} alt="proyect"/>
+				</ImageButton>
+				</Flex>
 			</Container>
+
 		);
 	}
 }
