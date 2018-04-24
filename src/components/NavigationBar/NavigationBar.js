@@ -6,11 +6,13 @@ export class NavigationBar extends Component {
 		return (
 			<NavigationContainer>
 				<NavItem to="/">Home</NavItem>
-				<NavItem to="/Proyects">My Proyects</NavItem>
-				<NavItem>My Resume</NavItem>
+				<NavItem to="/Proyects">My Projects</NavItem>
+				<NavItem href='https://standardresume.co/miguelangelescamilla'>My Resume</NavItem>
 			</NavigationContainer>
 		);
 	}
 }
 
 export default NavigationBar; 
+
+

@@ -1,4 +1,5 @@
 import styled, {css} from 'styled-components';
+import { red, blue } from 'theme/variables';
 
 export  const Image = styled.img `
 width: 69%;
@@ -10,7 +11,6 @@ background-image: url(${require('../../assets/web.jpg')});
 background-repeat: no-repeat;
 background-size: cover;
 background-position: center;
-
 display: flex;
 flex-direction: column;
 align-content: center;
@@ -24,6 +24,11 @@ emh1{
 }
 `;
 
+export const MeImage = styled.img`
+	margin-top:40px;
+	border-radius: 50%;
+`;
+
 export const RevealP = styled.p `
 position: relative;
 &:after {
@@ -34,6 +39,7 @@ position: relative;
 	width: 100%;
 	height: 100%;
 	background-color: #F8F4E3;
+	opacity: 0.6;
 	transform-origin: left;
 	transform: rotateY(90deg);
 
@@ -45,4 +51,11 @@ position: relative;
     }
   `}
 
+`;
+
+export const Title = styled.h1`
+	color: ${red};
+	font-weight: bold; 
+	font-size: 49px;
+	margin-top: 0;
 `;
