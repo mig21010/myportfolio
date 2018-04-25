@@ -1,5 +1,5 @@
 import styled, {css} from 'styled-components';
-import { red, blue } from 'theme/variables';
+import { red, blue, black } from 'theme/variables';
 
 export  const Image = styled.img `
 width: 69%;
@@ -27,6 +27,13 @@ emh1{
 export const MeImage = styled.img`
 	margin-top:40px;
 	border-radius: 50%;
+`;
+
+export const ItemImage = styled.img`
+ 	width: 250px;
+ 	height: 250px;
+ 	background-color: ${black};
+ 	border-radius: 20px;
 `;
 
 export const RevealP = styled.p `

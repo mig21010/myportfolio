@@ -5,7 +5,8 @@ import {
  CatImage,
  RevealP,
  MeImage,
- Title
+ Title,
+ ItemImage
   } from './Home_style';
 import WhenInView from 'components/WhenInView/WhenInView';
 
@@ -32,7 +33,7 @@ export default class Home extends Component {
 				Two years ago I did my first Web application with PHP, since then I've dedicated myself to know more about the newest
 				Web technologies so Every day I keep trying to learn something new and proposing me challenges cause I think that is 
 				the best way which you can get knowledge and experience. I really like that ability for develop applications with those
-				ideas which born on your mind to me it's a super power to be able to create solutions in the form of a website.
+				ideas which born on your mind to me it's a super power to be able to create solutions in the form of a Website.
 				Nowadays I'm twenty three years old and I've finished my major so now I'm looking for one opportunity where I can develop my
 				skills, learn new things and share my knowledge with others. 
 				
@@ -41,15 +42,35 @@ export default class Home extends Component {
 			</WhenInView>
 			</Div>
 			<Title>Education:</Title>	
-			<Div marginLeft="30px">
+			<Div marginLeft="40px">
 			<WhenInView>
 			{({isInView}) => 
 			<RevealP hide={!isInView}>
-				Informatics - National Autonomous University of Mexico (UNAM) 2013-2017
+				Informatics - National Autonomous University of Mexico (UNAM) 2013-2017.
 
 			</RevealP>
 			}	
 			</WhenInView>
+			</Div>
+			<Title>My favorite tools:</Title>
+			<Flex justify="space-around" >
+			<ItemImage src={require('assets/4B2.png')} alt="ubuntu"/>
+			<ItemImage src={require('assets/reactjs.png')} alt="react"/>
+			<ItemImage src={require('assets/css3.png')} alt="css"/>
+			</Flex>
+			<Div marginTop="30px">
+			<Flex justify="space-around">
+			<ItemImage src={require('assets/codeIgniter.png')} alt="codeigniter"/>
+			<ItemImage src={require('assets/git.png')} alt="git"/>
+			<ItemImage src={require('assets/html.png')} alt="html"/>
+			</Flex>
+			</Div>
+			<Div marginTop="30px">
+			<Flex justify="space-around">
+			<ItemImage src={require('assets/mysql.png')} alt="mysql"/>
+			<ItemImage src={require('assets/js.png')} alt="js"/>
+			<ItemImage src={require('assets/laravel.png')} alt="laravel"/>
+			</Flex>
 			</Div>
 			<WhenInView>
 			{({isInView}) => 
