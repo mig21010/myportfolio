@@ -18,6 +18,8 @@ export default class Home extends Component {
 			<CatImage>
 				<h1>Hey! I'm Miguel Angel Escamilla</h1>
 				<h2>Web Developer</h2>
+				<h2>"You have to be curious about the world in which you live. Look things up, chase down every reference
+				and go deeper than anybody else that's how you'll get ahead. AK"</h2>
 			</CatImage>
 				<Title>About me...</Title>
 			<Flex justify="center">
@@ -30,7 +32,8 @@ export default class Home extends Component {
 				Two years ago I did my first Web application with PHP, since then I've dedicated myself to know more about the newest
 				Web technologies so Every day I keep trying to learn something new and proposing me challenges cause I think that is 
 				the best way which you can get knowledge and experience. I really like that ability for create applications with those
-				 ideas which born on your mind .
+				ideas which born on your mind .
+				Nowadays I'm twenty three years old 
 				
 			</RevealP>
 
