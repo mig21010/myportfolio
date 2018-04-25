@@ -5713,6 +5713,10 @@ react-hot-loader@^4.0.0:
     prop-types "^15.6.0"
     shallowequal "^1.0.2"
 
+react-image-parallax2@^0.1.6:
+  version "0.1.6"
+  resolved "https://registry.yarnpkg.com/react-image-parallax2/-/react-image-parallax2-0.1.6.tgz#2451126e5e467849ac4e2ff8500cd16f1d24ccbd"
+
 react-is@^16.3.1:
   version "16.3.2"
   resolved "https://registry.yarnpkg.com/react-is/-/react-is-16.3.2.tgz#f4d3d0e2f5fbb6ac46450641eb2e25bf05d36b22"

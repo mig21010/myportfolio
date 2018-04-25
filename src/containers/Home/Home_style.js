@@ -56,6 +56,6 @@ position: relative;
 export const Title = styled.h1`
 	color: ${red};
 	font-weight: bold; 
-	font-size: 49px;
+	font-size: 39px;
 	margin-top: 0;
 `;

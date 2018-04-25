@@ -9,7 +9,7 @@ import { white } from 'theme/variables';
     @import url('https://fonts.googleapis.com/css?family=Nunito');
  	 	body {
  	 		font-family: 'Nunito', sans-serif;
- 	 		font-size: 20px;
+ 	 		font-size: 22px;
  	 		color: ${white};
  	 		background-image: url(${require('assets/stars.jpg')});
  	 		
