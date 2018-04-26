@@ -16,13 +16,12 @@ ${({marginTop}) => marginTop && css `
 `}
  `;
  export const Container = styled(Div)`
-	padding-left: 120px;
-	padding-right: 120px;
+	padding-left: 10vw;
+	padding-right: 10vw;
 	padding-top: 30px;
 	${media.phone`
 	padding-left: 30px;
 	padding-right: 30px;
-	padding-top: 15px;
 	`}
 `;
 

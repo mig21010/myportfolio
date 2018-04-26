@@ -6,7 +6,8 @@ import {
  RevealP,
  MeImage,
  Title,
- ItemImage
+ ItemImage,
+ TitleItem
   } from './Home_style';
 import WhenInView from 'components/WhenInView/WhenInView';
 
@@ -16,12 +17,14 @@ export default class Home extends Component {
 	render() {
 		return (
 			<Container>
+			<Div marginLeft="10px">
 			<CatImage>
 				<h1>Hey! I'm Miguel Angel Escamilla</h1>
 				<h2>Web Developer</h2>
 				<h2>"You have to be curious about the world in which you live. Look things up, chase down every reference
 				and go deeper than anybody else that's how you'll get ahead. AK"</h2>
 			</CatImage>
+			</Div>
 				<Title>About me:</Title>
 			<Flex justify="center">
 			<MeImage src={require('assets/me2_cwoyml.jpg')} alt="me"/>
@@ -72,19 +75,20 @@ export default class Home extends Component {
 			<ItemImage src={require('assets/laravel.png')} alt="laravel"/>
 			</Flex>
 			</Div>
+			<Title>My programming skills:</Title>
+			<Div marginLeft="10px">
 			<WhenInView>
 			{({isInView}) => 
 			<RevealP hide={!isInView}>
-				Lorem ipsum olor sit amet, consectetur adipiscing elit. Vivamus id quam magna. Vivamus tincidunt 
-				turpis id metus finibus finibus. Aenean bibendum dolor libero. Vestibulum ac risus ut purus placerat tempus. 
-				Maecenas ac arcu eu elit tempus egestas eu a ex. Nunc eget purus at urna sollicitudin fringilla ut quis leo. 
-				Vivamus non erat in velit tincidunt volutpat. In est velit, lobortis at elit vitae, laoreet egestas mi. Duis 
-				sit amet metus lacus. Duis mi felis, eleifend vitae libero vel, ullamcorper gravida lectus. Nunc leo felis, 
-				tincidunt vel facilisis at, laoreet sed lorem. Praesent vulputate a ante et tincidunt.
+				I have experience as a backend developer cause I've developed some Web Sites with PHP and design of databases, 
+				lately I've used frameworks for PHP like Code Igniter and now I'm taking a course about Laravel, besides I know
+				about JavaScript and CSS but I'd like to learn frameworks in the front end development in fact I did this portfolio
+				with ReactJs, cause I don't like be in my comfort zone so, someday I hope to become a full stack developer.
 
 			</RevealP>
 			}	
 			</WhenInView>
+			</Div>
 			<WhenInView>
 			{({isInView}) => 
 			<RevealP hide={!isInView}>

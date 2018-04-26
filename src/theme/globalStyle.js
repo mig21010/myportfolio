@@ -1,5 +1,6 @@
 import { injectGlobal } from 'styled-components';
 import { white } from 'theme/variables';
+import media from 'theme/media';
 
 
 
@@ -10,7 +11,11 @@ import { white } from 'theme/variables';
  	 	body {
  	 		font-family: 'Nunito', sans-serif;
  	 		font-size: 22px;
+ 	 		${media.tablet`
+ 	 		 font-size: 15px;
+ 	 		 `}
  	 		color: ${white};
+ 	 		text-align: justify;
  	 		background-image: url(${require('assets/stars.jpg')});
  	 		
 			

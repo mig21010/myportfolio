@@ -1,5 +1,6 @@
 import styled, {css} from 'styled-components';
 import { red, blue, black } from 'theme/variables';
+import media from 'theme/media';
 
 export  const Image = styled.img `
 width: 69%;
@@ -18,7 +19,11 @@ justify-content: center;
 text-align: center;
 color: #F8F4E3;
 
-font-size: 1.5
+font-size: 0.9em;
+
+${media.tablet`
+	font-size: 13px;
+`}
 emh1{
 	margin-botton: 0;
 }
@@ -30,11 +35,27 @@ export const MeImage = styled.img`
 `;
 
 export const ItemImage = styled.img`
- 	width: 250px;
- 	height: 250px;
+ 	width: 180px;
+ 	height: 180px;
+ 	${media.tablet`
+    width: 100px;
+    height: 100px;
+  `}
+  ${media.phone`
+    width: 50px;
+    height: 50px;
+  `}
  	background-color: ${black};
  	border-radius: 20px;
+ 	
 `;
+
+export const TitleItem = styled.p`
+	font-size: 19px; 
+	color: ${blue};
+	position: relative;
+`;
+
 
 export const RevealP = styled.p `
 position: relative;
@@ -63,6 +84,10 @@ position: relative;
 export const Title = styled.h1`
 	color: ${red};
 	font-weight: bold; 
-	font-size: 39px;
+	font-size: 30px;
+	${media.tablet`
+	font-size: 15px:
+	`}
 	margin-top: 0;
+	
 `;

@@ -19,7 +19,7 @@ class App extends Component {
               params={{
                 particles: {
                   number: {
-                  value: 50
+                  value: 35
                   },
                   line_linked:
                    {
@@ -42,6 +42,7 @@ class App extends Component {
               }}
               style={{
                 position: 'fixed',
+                display: 'block',
                 top: 0,
                 left: 0,
                 width: "100%",

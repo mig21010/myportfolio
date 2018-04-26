@@ -1,10 +1,12 @@
 import styled from 'styled-components';
-import { red, blue } from 'theme/variables';
+import { red, blue, gray } from 'theme/variables';
+import media from 'theme/media';
 
 export const ImageButton = styled.div`
 	cursor: pointer;
 	overflow: hidden;
 	display: inline-block;
+	
 	& > img{
 			transition: transform .3s;
 	}
@@ -13,6 +15,20 @@ export const ImageButton = styled.div`
 			transform: scale(1.3);
 		}
 	}
+
+`;
+
+export const Image = styled.img`
+  width:600px;
+  height:300px;
+  ${media.tablet`
+    width: 350px;
+    height: 150px;
+  `}
+  ${media.phone`
+  	width: 250px;
+    height: 100px;
+    `}
 `;
 
 export const Index = styled.div `
@@ -34,4 +50,11 @@ export const Title = styled.h1`
 	color: ${blue};
 	font-weight: bold; 
 	margin-top: 0;
+`;
+
+export const Tag = styled.div `
+	color:${gray};
+	font-weight: bold;
+	font-size: 15px;
+
 `;
