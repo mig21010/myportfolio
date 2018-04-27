@@ -39,7 +39,7 @@ export default class Home extends Component {
 			<WhenInView>
 			{({isInView}) => 
 			<RevealP hide={!isInView}>
-				Two years ago I did my first Web application with PHP, since then I've dedicated myself to know more about the newest
+				Two years ago  and a half I did my first Web application with PHP, since then I've dedicated myself to know more about the newest
 				Web technologies so Every day I keep trying to learn something new and proposing me challenges cause I think that is 
 				the best way which you can get knowledge and experience. I really like that ability for develop applications with those
 				ideas which born on your mind to me it's a super power to be able to create solutions in the form of a Website.
@@ -91,7 +91,8 @@ export default class Home extends Component {
 				<GoRuby size={34} color="DarkRed " /> I have experience as a backend developer cause I've developed some Web Sites with PHP and design of databases, 
 				lately I've used frameworks for PHP like Code Igniter and now I'm taking a course about Laravel, besides I know
 				about JavaScript and CSS but I'd like to learn frameworks in the front end development in fact I did this portfolio
-				with ReactJs, cause I don't like be in my comfort zone so, someday I hope to become a full stack developer.
+				with ReactJs cause I think that is very important to use those kind of tools to solve problems from IU and I wanna say that
+				I don't like be in my comfort zone so, someday I hope to become a full stack developer.
 
 			</RevealP>
 			}	
@@ -100,13 +101,7 @@ export default class Home extends Component {
 			<WhenInView>
 			{({isInView}) => 
 			<RevealP hide={!isInView}>
-				Lorem ipsum olor sit amet, consectetur adipiscing elit. Vivamus id quam magna. Vivamus tincidunt 
-				turpis id metus finibus finibus. Aenean bibendum dolor libero. Vestibulum ac risus ut purus placerat tempus. 
-				Maecenas ac arcu eu elit tempus egestas eu a ex. Nunc eget purus at urna sollicitudin fringilla ut quis leo. 
-				Vivamus non erat in velit tincidunt volutpat. In est velit, lobortis at elit vitae, laoreet egestas mi. Duis 
-				sit amet metus lacus. Duis mi felis, eleifend vitae libero vel, ullamcorper gravida lectus. Nunc leo felis, 
-				tincidunt vel facilisis at, laoreet sed lorem. Praesent vulputate a ante et tincidunt.
-
+				Some of these technologies have allowed me to work more easier, maintainable and organized.
 			</RevealP>
 			}	
 			</WhenInView>
