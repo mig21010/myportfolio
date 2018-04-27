@@ -8,8 +8,12 @@ import {
 	Image,
 	Tag
 } from './Proyects_style';
+import WOW from 'wowjs';
 
 class Proyects extends Component {
+	componentDidMount(){
+		new WOW.WOW().init();
+	}
 	render() {
 		return (
 			<Container>
@@ -24,7 +28,7 @@ class Proyects extends Component {
 				</Relative>
 				<Flex justify={'center'}>
 				<ImageButton>
-				<Image src={require('assets/past.png')} alt="paste"/>
+				<Image className="wow fadeInLeft" data-wow-iteration="1" data-wow-offset="80" data-wow-delay=".5s" src={require('assets/past.png')} alt="paste"/>
 				</ImageButton>
 				</Flex>
 				<Relative marginBottom="50px">
@@ -36,7 +40,7 @@ class Proyects extends Component {
 				</Relative>
 				<Flex justify={'center'}>
 				<ImageButton>
-				<Image src={require('assets/galery.png')} alt="gallery"/>
+				<Image className="wow fadeInRight" data-wow-iteration="1" data-wow-offset="80" data-wow-delay=".5s" src={require('assets/galery.png')} alt="gallery"/>
 				</ImageButton>
 				</Flex>
 				<Relative marginBottom="50px">
@@ -48,7 +52,7 @@ class Proyects extends Component {
 				</Relative>
 				<Flex justify={'center'}>
 				<ImageButton>
-				<Image src={require('assets/blog.png')} alt="blog"/>
+				<Image className="wow fadeInLeft" data-wow-iteration="1" data-wow-offset="80" data-wow-delay=".5s" src={require('assets/blog.png')} alt="blog"/>
 				</ImageButton>
 				</Flex>
 				<Relative marginBottom="50px">
@@ -60,7 +64,7 @@ class Proyects extends Component {
 				</Relative>
 				<Flex justify={'center'}>
 				<ImageButton>
-				<Image src={require('assets/clinica.png')} alt="clinic"/>
+				<Image className="wow fadeInRight" data-wow-iteration="1" data-wow-offset="80" data-wow-delay=".5s" src={require('assets/clinica.png')} alt="clinic"/>
 				</ImageButton>
 				</Flex>
 				<Relative marginBottom="50px">
@@ -72,31 +76,31 @@ class Proyects extends Component {
 				</Relative>
 				<Flex justify={'center'}>
 				<ImageButton>
-				<Image src={require('assets/data.png')} alt="data"/>
+				<Image className="wow fadeInLeft" data-wow-iteration="1" data-wow-offset="80" data-wow-delay=".5s" src={require('assets/data.png')} alt="data"/>
 				</ImageButton>
 				</Flex>
 				<Relative marginBottom="50px">
 				<Index>
 				<h1>06</h1>
 				</Index>
-				<p>Portfolio Site developed with React Js <A href='https://github.com/mig21010/myportfolio'>Checkout on GitHub.</A></p>
+				<p>Portfolio Site developed with React Js. <A href='https://github.com/mig21010/myportfolio'>Checkout on GitHub.</A></p>
 				<Tag>#React#ES6#WebPack#StyledComponents</Tag>
 				</Relative>
 				<Flex justify={'center'}>
 				<ImageButton>
-				<Image src={require('assets/portfolio.png')} alt="portfolio"/>
+				<Image className="wow fadeInRight" data-wow-iteration="1" data-wow-offset="80" data-wow-delay=".5s" src={require('assets/portfolio.png')} alt="portfolio"/>
 				</ImageButton>
 				</Flex>
 				<Relative marginBottom="50px">
 				<Index>
 				<h1>07</h1>
 				</Index>
-				<p>Final degree project in CodeIgniter about manage and genarate formats on PDF for IMSS <A href='https://github.com/mig21010/imss'>Checkout on GitHub.</A></p>
+				<p>Final degree project in CodeIgniter about manage of employees and genarate formats on PDF for IMSS.<A href='https://github.com/mig21010/imss'>Checkout on GitHub.</A></p>
 				<Tag>#CodeIgniter#AJAX#JQuery#MySQL#HTML#MVC</Tag>
 				</Relative>
 				<Flex justify={'center'}>
 				<ImageButton>
-				<Image src={require('assets/imss.png')} alt="imss"/>
+				<Image className="wow fadeInLeft" data-wow-iteration="1" data-wow-offset="80" data-wow-delay=".5s" src={require('assets/imss.png')} alt="imss"/>
 				</ImageButton>
 				</Flex>
 			</Container>
