@@ -10,7 +10,7 @@ export const Background = styled.div`
 	top: 0vh;
 	height: 100vh;
 
-	opacity: 0.7;
+	opacity: 0.5;
 	background-color: ${black};
 	background-repeat: no-repeat;
 	background-size: 100%;

@@ -1,5 +1,5 @@
 import { injectGlobal } from 'styled-components';
-import { white } from 'theme/variables';
+import { white, dark } from 'theme/variables';
 import media from 'theme/media';
 
 
@@ -16,7 +16,7 @@ import media from 'theme/media';
  	 		 `}
  	 		color: ${white};
  	 		text-align: justify;
- 	 		background-image: url(${require('assets/stars.jpg')});
+ 	 		background-color: ${dark};
  	 		
 			
  	 	}
@@ -30,3 +30,4 @@ import media from 'theme/media';
 
  	// color: ${white};
  	//  		background-image: url(${require('assets/stars.jpg')});
+ 	// url(${require('assets/stars.jpg')});

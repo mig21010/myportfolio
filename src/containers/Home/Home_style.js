@@ -73,7 +73,7 @@ position: relative;
 	transform-origin: left;
 	transform: rotateY(90deg);
 
-	transition: transform 0.8s;
+	transition: transform 2s;
 }
   ${({ hide }) => hide && css`
     &:after {

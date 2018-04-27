@@ -12,6 +12,9 @@ import {
   } from './Home_style';
 import WhenInView from 'components/WhenInView/WhenInView';
 import WOW from 'wowjs';
+import FaGraduationCap from 'react-icons/lib/fa/graduation-cap';
+import GoRuby from 'react-icons/lib/go/ruby';
+
 export default class Home extends Component {
 	componentDidMount(){
 		new WOW.WOW().init();
@@ -52,8 +55,9 @@ export default class Home extends Component {
 			<WhenInView>
 			{({isInView}) => 
 			<RevealP hide={!isInView}>
-				Informatics - National Autonomous University of Mexico (UNAM) 2013-2017.
+			<FaGraduationCap size={44} color="DarkGoldenRod"/> Informatics - National Autonomous University of Mexico (UNAM) 2013-2017.
 			</RevealP>
+			
 			}	
 			</WhenInView>
 			</Div>
@@ -84,7 +88,7 @@ export default class Home extends Component {
 			<WhenInView>
 			{({isInView}) => 
 			<RevealP hide={!isInView}>
-				I have experience as a backend developer cause I've developed some Web Sites with PHP and design of databases, 
+				<GoRuby size={34} color="DarkRed " /> I have experience as a backend developer cause I've developed some Web Sites with PHP and design of databases, 
 				lately I've used frameworks for PHP like Code Igniter and now I'm taking a course about Laravel, besides I know
 				about JavaScript and CSS but I'd like to learn frameworks in the front end development in fact I did this portfolio
 				with ReactJs, cause I don't like be in my comfort zone so, someday I hope to become a full stack developer.
