@@ -32,6 +32,8 @@ emh1{
 export const MeImage = styled.img`
 	margin-top:40px;
 	border-radius: 50%;
+	height:280px;
+	weight:280px;
 `;
 
 export const ItemImage = styled.img`
@@ -90,4 +92,14 @@ export const Title = styled.h1`
 	`}
 	margin-top: 0;
 	
+`;
+
+export const Imagec = styled.img `
+ width : 650px;
+ height: 376px;
+ border-radius: 6px;
+${media.tablet `
+ width: 325px;
+ height:220px;
+	`}
 `;

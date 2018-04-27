@@ -79,7 +79,7 @@ class Proyects extends Component {
 				<Index>
 				<h1>06</h1>
 				</Index>
-				<p>Portfolio Site developed with React Js <A href="">Checkout on GitHub.</A></p>
+				<p>Portfolio Site developed with React Js <A href='https://github.com/mig21010/myportfolio'>Checkout on GitHub.</A></p>
 				<Tag>#React#ES6#WebPack#StyledComponents</Tag>
 				</Relative>
 				<Flex justify={'center'}>

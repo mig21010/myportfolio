@@ -7,7 +7,8 @@ import {
  MeImage,
  Title,
  ItemImage,
- TitleItem
+ TitleItem,
+ Imagec
   } from './Home_style';
 import WhenInView from 'components/WhenInView/WhenInView';
 
@@ -102,8 +103,17 @@ export default class Home extends Component {
 			</RevealP>
 			}	
 			</WhenInView>
-
-				{/*<Image src={require('../assets/cat.jpg')} alt="cat-image"/>*/}
+			<Div marginLeft="15px">
+			<Flex justify="center">
+			<Imagec src={require('assets/php.png')} alt="php"/>
+			</Flex>
+			</Div>
+			<Div marginLeft="15px"marginTop="50px">
+			<Flex justify="center">
+			<Imagec src={require('assets/jss.png')} alt="js"/>
+			</Flex>
+			</Div>
+			{/*<Image src={require('../assets/cat.jpg')} alt="cat-image"/>*/}
 				
 			</Container>
 		);
