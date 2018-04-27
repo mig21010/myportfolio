@@ -1,13 +1,11 @@
 import React, { Component } from 'react';
-import {Container, Div, Flex, Relative} from 'theme/grid';
+import {Container, Div, Flex} from 'theme/grid';
 import {
- Image,
  CatImage,
  RevealP,
  MeImage,
  Title,
  ItemImage,
- TitleItem,
  Imagec
   } from './Home_style';
 import WhenInView from 'components/WhenInView/WhenInView';
