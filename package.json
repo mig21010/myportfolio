@@ -85,6 +85,7 @@
     "moduleNameMapper": {
       "^react-native$": "react-native-web"
     },
+	
     "moduleFileExtensions": [
       "web.js",
       "js",

@@ -1,9 +1,6 @@
 import { injectGlobal } from 'styled-components';
 import { white, dark } from 'theme/variables';
 import media from 'theme/media';
-
-
-
  	injectGlobal
  	 `
  	
