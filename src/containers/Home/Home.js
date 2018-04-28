@@ -42,7 +42,7 @@ export default class Home extends Component {
 				the best way which you can get knowledge and experience. I really like that ability for develop applications with those
 				ideas which born on your mind to me it's a super power to be able to create solutions in the form of a Website.
 				Nowadays I'm twenty three years old and I've finished my major so now I'm looking for one opportunity where I can develop my
-				skills, learn new things and share my knowledge with others. 
+				skills, learn new things and share my knowledge with others.This is a change.
 				
 			</RevealP>
 			}
