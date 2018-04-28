@@ -1,8 +1,8 @@
 import styled from 'styled-components'; 
-import {Flex, Div} from 'theme/grid';
-import {red, blue2, white} from 'theme/variables';
+import {Flex, Div} from '../../theme/grid';
+import {red, blue2, white} from '../../theme/variables';
 import { Link } from 'react-router'; 
-import media from 'theme/media'
+import media from '../../theme/media'
 
 export const NavigationContainer = styled(Flex) `
 	cursor: pointer;

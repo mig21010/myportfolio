@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import { Background } from './App_style';
-import NavigationBar from 'components/NavigationBar/NavigationBar';
+import NavigationBar from '../../components/NavigationBar/NavigationBar';
 import ReallySmoothSroll from 'really-smooth-scroll';
 import { hashHistory } from 'react-router';
 import Particles from 'react-particles-js';

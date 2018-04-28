@@ -1,6 +1,6 @@
 import styled from 'styled-components';
-import { red, blue, gray } from 'theme/variables';
-import media from 'theme/media';
+import { red, blue, gray } from '../../theme/variables';
+import media from '../../theme/media';
 
 export const ImageButton = styled.div`
 	cursor: pointer;

@@ -1,5 +1,5 @@
 import styled from 'styled-components';
-import {blue, yellow, red} from 'theme/variables';
+import {blue, yellow, red} from '../theme/variables';
 
  export const A = styled.a `
 	color: ${blue};

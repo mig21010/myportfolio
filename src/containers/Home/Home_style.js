@@ -1,6 +1,6 @@
 import styled, {css} from 'styled-components';
-import { red, blue, black } from 'theme/variables';
-import media from 'theme/media';
+import { red, blue, black } from '../../theme/variables';
+import media from '../../theme/media';
 
 export  const Image = styled.img `
 width: 69%;

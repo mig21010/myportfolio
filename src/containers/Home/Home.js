@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import {Container, Div, Flex} from 'theme/grid';
+import {Container, Div, Flex} from '../../theme/grid';
 import {
  CatImage,
  RevealP,
@@ -8,7 +8,7 @@ import {
  ItemImage,
  Imagec
   } from './Home_style';
-import WhenInView from 'components/WhenInView/WhenInView';
+import WhenInView from '../../components/WhenInView/WhenInView';
 import WOW from 'wowjs';
 import FaGraduationCap from 'react-icons/lib/fa/graduation-cap';
 import GoRuby from 'react-icons/lib/go/ruby';
@@ -31,7 +31,7 @@ export default class Home extends Component {
 			</Div>
 				<Title>About me:</Title>
 			<Flex justify="center">
-			<MeImage className="wow slideInUp" data-wow-iteration="1" data-wow-offset="80" data-wow-delay=".5s" src={require('assets/me2_cwoyml.jpg')} alt="me"/>
+			<MeImage className="wow slideInUp" data-wow-iteration="1" data-wow-offset="80" data-wow-delay=".5s" src={require('../../assets/me2_cwoyml.jpg')} alt="me"/>
 			</Flex>
 			<Div marginLeft="10px">
 			<WhenInView>
@@ -62,23 +62,23 @@ export default class Home extends Component {
 			<Title>My favorite tools:</Title>
 			<Div marginLeft="15px">
 			<Flex justify="space-around" >
-			<ItemImage className="wow fadeInDown" data-wow-iteration="1" data-wow-offset="80" data-wow-delay=".5s" src={require('assets/4B2.png')} alt="ubuntu"/>
-			<ItemImage className="wow fadeInDown" data-wow-iteration="1" data-wow-offset="80" data-wow-delay=".5s" src={require('assets/reactjs.png')} alt="react"/>
-			<ItemImage className="wow fadeInDown" data-wow-iteration="1" data-wow-offset="80" data-wow-delay=".5s" src={require('assets/css3.png')} alt="css"/>
+			<ItemImage className="wow fadeInDown" data-wow-iteration="1" data-wow-offset="80" data-wow-delay=".5s" src={require('../../assets/4B2.png')} alt="ubuntu"/>
+			<ItemImage className="wow fadeInDown" data-wow-iteration="1" data-wow-offset="80" data-wow-delay=".5s" src={require('../../assets/reactjs.png')} alt="react"/>
+			<ItemImage className="wow fadeInDown" data-wow-iteration="1" data-wow-offset="80" data-wow-delay=".5s" src={require('../../assets/css3.png')} alt="css"/>
 			</Flex>
 			</Div>
 			<Div marginLeft="15px" marginTop="30px">
 			<Flex justify="space-around">
-			<ItemImage className="wow fadeInLeft" data-wow-iteration="1" data-wow-offset="80" data-wow-delay=".5s" src={require('assets/codeIgniter.png')} alt="codeigniter"/>
-			<ItemImage className="wow fadeInLeft" data-wow-iteration="1" data-wow-offset="80" data-wow-delay=".5s" src={require('assets/git.png')} alt="git"/>
-			<ItemImage className="wow fadeInLeft" data-wow-iteration="1" data-wow-offset="80" data-wow-delay=".5s" src={require('assets/html.png')} alt="html"/>
+			<ItemImage className="wow fadeInLeft" data-wow-iteration="1" data-wow-offset="80" data-wow-delay=".5s" src={require('../../assets/codeIgniter.png')} alt="codeigniter"/>
+			<ItemImage className="wow fadeInLeft" data-wow-iteration="1" data-wow-offset="80" data-wow-delay=".5s" src={require('../../assets/git.png')} alt="git"/>
+			<ItemImage className="wow fadeInLeft" data-wow-iteration="1" data-wow-offset="80" data-wow-delay=".5s" src={require('../../assets/html.png')} alt="html"/>
 			</Flex>
 			</Div>
 			<Div marginLeft="15px" marginTop="30px">
 			<Flex justify="space-around">
-			<ItemImage className="wow fadeInUp" data-wow-iteration="1" data-wow-offset="80" data-wow-delay=".5s" src={require('assets/mysql.png')} alt="mysql"/>
-			<ItemImage className="wow fadeInUp" data-wow-iteration="1" data-wow-offset="80" data-wow-delay=".5s" src={require('assets/js.png')} alt="js"/>
-			<ItemImage className="wow fadeInUp" data-wow-iteration="1" data-wow-offset="80" data-wow-delay=".5s" src={require('assets/laravel.png')} alt="laravel"/>
+			<ItemImage className="wow fadeInUp" data-wow-iteration="1" data-wow-offset="80" data-wow-delay=".5s" src={require('../../assets/mysql.png')} alt="mysql"/>
+			<ItemImage className="wow fadeInUp" data-wow-iteration="1" data-wow-offset="80" data-wow-delay=".5s" src={require('../../assets/js.png')} alt="js"/>
+			<ItemImage className="wow fadeInUp" data-wow-iteration="1" data-wow-offset="80" data-wow-delay=".5s" src={require('../../assets/laravel.png')} alt="laravel"/>
 			</Flex>
 			</Div>
 			<Title>My programming skills:</Title>
@@ -105,12 +105,12 @@ export default class Home extends Component {
 			</WhenInView>
 			<Div marginLeft="15px">
 			<Flex justify="center">
-			<Imagec className="wow lightSpeedIn" data-wow-iteration="1" data-wow-offset="80" data-wow-delay=".5s" src={require('assets/php.png')} alt="php"/>
+			<Imagec className="wow lightSpeedIn" data-wow-iteration="1" data-wow-offset="80" data-wow-delay=".5s" src={require('../../assets/php.png')} alt="php"/>
 			</Flex>
 			</Div>
 			<Div marginLeft="15px"marginTop="50px">
 			<Flex justify="center">
-			<Imagec className="wow rollIn" data-wow-iteration="1" data-wow-offset="80" data-wow-delay=".5s" src={require('assets/jss.png')} alt="js"/>
+			<Imagec className="wow rollIn" data-wow-iteration="1" data-wow-offset="80" data-wow-delay=".5s" src={require('../../assets/jss.png')} alt="js"/>
 			</Flex>
 			</Div>
 			{/*<Image src={require('../assets/cat.jpg')} alt="cat-image"/>*/}

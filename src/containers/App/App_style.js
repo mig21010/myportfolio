@@ -1,6 +1,6 @@
 import styled from 'styled-components';
-import { white, blue, black } from 'theme/variables';
-import media from 'theme/media';
+import { white, blue, black } from '../../theme/variables';
+import media from '../../theme/media';
 
 
 export const Background = styled.div`

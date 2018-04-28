@@ -1,5 +1,5 @@
 import styled, {css} from 'styled-components';
-import media from 'theme/media';
+import media from '../theme/media';
 
  export	const Div = styled.div`
  ${({marginBottom}) => marginBottom && css `
